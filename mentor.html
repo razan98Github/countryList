@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="mentor.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <title>Front-End Mentor</title>
+    </head>
+    <body id="first">
+    <header id="head">
+    <h2>Where in the world?</h2>
+    <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+    </header>
+    <div id="container1">
+    <form id="form">
+    <input type="text" id="country" placeholder="Search for a country..."/>
+    <input type="submit" id="btn" value="LOOK UP"/>
+    </form>
+    <select id="list" name="list" onchange="region()">
+        <option value=" ">Filter by Region</option>
+        <option value="africa">Africa</option>
+        <option value="america">America</option>
+        <option value="asia">Asia</option>
+        <option value="europe">Europe</option>
+        <option value="oceania">Oceania</option>
+    </select>
+</div>
+<div id="display">
+    <img class="flag-img"/>
+     </div>  
+     <div id="region">
+    <h1 id="title"></h1>
+    </div>
+    <div class="father">
+        <div id="container2">
+    <div id="ge" id="de"  class="box1 box">
+        <img src="https://flagcdn.com/w320/de.png">
+     <h3>Germany</h3> 
+     <p></p>
+     <p></p>
+     <p></p>  
+    </div>
+   
+    <div id="am" id="us" class="box1 box">
+        <img src="https://flagcdn.com/w320/us.png" >
+        <h3>United States of America</h3> 
+        <p></p>
+        <p></p>
+        <p></p>  
+    </div>
+    
+    <div id="br" class="box1 box">
+        <img src="https://flagcdn.com/w320/br.png">
+        <h3>Brazil</h3> 
+        <p></p>
+        <p></p>
+        <p></p>  
+    </div>
+   
+    <div id="ic" id="isl" class="box1 box">
+        <img src="https://flagcdn.com/w320/is.png">
+        <h3>Iceland</h3> 
+        <p></p>
+        <p></p>
+        <p></p>  
+    </div>
+</div>
+
+
+<div id="container3">
+    
+    <div id="ph"  class="box2 box">
+        <img src="https://flagcdn.com/w320/ph.png">
+     <h3>Philippines</h3> 
+     <p></p>
+     <p></p>
+     <p></p>  
+    </div>
+   
+    <div id="al" id="ax" class="box2 box">
+        <img src="https://flagcdn.com/w320/ax.png" >
+        <h3>Aland Islands</h3> 
+        <p> </p>
+        <p></p>
+        <p></p>  
+    </div>
+    
+    <div id="ab" id="al" class="box2 box">
+        <img src="https://flagcdn.com/w320/al.png">
+        <h3>Albania</h3> 
+        <p></p>
+        <p></p>
+        <p></p>  
+    </div>
+   
+    <div id="ag" id="dz" class="box2 box">
+        <img src="https://flagcdn.com/w320/dz.png">
+        <h3>Algeria</h3> 
+        <p></p>
+        <p></p>
+        <p></p>  
+    </div>
+
+</div>
+
+</div>
+   
+
+
+    </body>
+    <script src="mentor.js"></script>
+</html>
